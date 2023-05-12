@@ -1,0 +1,45 @@
+ <!-- form handling -->
+ <form action="/api/sale" method="POST" id="add_sale">
+    <div class="new_user" id="salesTbl">
+        <div class="form-group">
+            <label for="name" class="text-light">Code</label>
+            <input type="hidden" name="id" >
+            <input type="text" name="code"  placeholder="Product Code">
+        </div>
+        <div class="form-group">
+            <label for="name" class="text-light">Date</label>
+            <input type="hidden" name="id" >
+            <input type="date" name="date" >
+        </div>
+        <div class="form-group">
+            <label for="name" class="text-light">Name Client</label>
+            <input type="hidden" name="id" >
+            <input type="text" name="nameclient"  placeholder="Client name">
+        </div>
+        <div class="form-group">
+            <label for="name" class="text-light">Name Product</label>
+            <input type="hidden" name="id" >
+            <input type="text" name="nameproduct"  placeholder="Product name">
+        </div>
+        <div class="form-group">
+            <label for="Email" class="text-light">Price</label>
+            <input type="text" name="price"  placeholder="Price">
+        </div>
+        <div class="form-group">
+            <label for="name" class="text-light">Quantity</label>
+            <input type="hidden" name="id" >
+            <input type="text" name="quantity"  >
+        </div>
+    
+        <div class="form-group">
+            <label for="name" class="text-light">Total</label>
+            <input type="hidden" name="id" >
+            <input type="text" name="total" class="sub-total" id="total">
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
